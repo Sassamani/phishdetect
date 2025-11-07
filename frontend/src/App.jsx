@@ -19,7 +19,7 @@ function App() {
     if (!text.trim()) return;
     setLoading(true);
     try {
-      const res = await axios.post("http://localhost:5000/api/detect", { text });
+      const res = await axios.post("https://phishdetect-chje.onrender.com/api/detect", { text });
       setResult(res.data);
     } catch {
       setResult({ error: "Error connecting to API" });
