@@ -31,7 +31,7 @@ The system achieves over 99% accuracy on test data.
 - React + Vite
 - Axios
 - Tailwind CSS
-- Hosted on [Vercel](https://phishdetect.vercel.app)
+- Hosted on [Vercel](https://phishdetect-zaqw04492-sassamanis-projects.vercel.app/)
 
 ---
 
